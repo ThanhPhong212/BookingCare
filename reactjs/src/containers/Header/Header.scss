@@ -1,0 +1,79 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index         : 99;
+    display         : flex;
+    justify-content : space-between;
+    background-color: $colormain;
+    color           : $common-text-color;
+    height          : 40px;
+    position        : relative;
+
+    .lang-log {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+
+        .welcome {
+            margin-right: 20px;
+        }
+
+        .language {
+            right           : 0px;
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+            height          : 20px;
+            width           : 70px;
+            border-radius   : 10px;
+            background-color: gray;
+            color           : white;
+
+
+
+            .language-vi {
+                cursor: pointer;
+                height: 100%;
+                width : 50%;
+
+                &.active {
+                    cursor          : pointer;
+                    background-color: rgba(255, 55, 0, 0.912);
+                    height          : 100%;
+                    width           : 50%;
+                    border-radius   : 10px;
+                }
+            }
+
+            .language-en {
+                cursor: pointer;
+                height: 100%;
+                width : 50%;
+
+                &.active {
+                    cursor          : pointer;
+                    height          : 100%;
+                    width           : 50%;
+                    background-color: rgba(9, 69, 200, 0.904);
+                    border-radius   : 10px;
+                }
+            }
+        }
+
+        .btn-logout {
+            color      : $common-text-color;
+            height     : 40px;
+            width      : 40px;
+            line-height: 45px;
+
+            &:hover {
+                background-color: darken($colormain, 5);
+            }
+
+            i {
+                font-size: $base-size + 1px;
+
+            }
+        }
+    }
+}

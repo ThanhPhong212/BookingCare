@@ -1,0 +1,130 @@
+.secsion {
+    padding-top   : 20px;
+    padding-bottom: 20px;
+
+    &.Specialty {
+        background-color: #f5f5f5;
+    }
+
+    &.MedicalFacility {
+        background-color: white;
+    }
+
+    &.Doctor {
+        background-color: #f5f5f5;
+    }
+
+
+    .secsion-container {
+        margin: 0 160px;
+
+        .about-header {}
+
+        .about-content {
+            .about-left {}
+
+            .about-right {}
+        }
+
+        .secsion-header {
+            height: 40px;
+
+            span {
+                font-size  : 20px;
+                font-weight: 600;
+            }
+
+            .btn-secsion {
+                font-size   : 16px;
+                border      : none;
+                float       : right;
+                outline     : none;
+                padding     : 10px 15px;
+                margin-right: 17px;
+            }
+        }
+
+        .secsion-body {
+            margin-top: 20px;
+
+
+            .secsion-customize {
+                padding: 5px;
+
+                .customize {
+                    height: 280px;
+                    border: 1px solid rgba(128, 128, 128, 0.214);
+                    margin: auto;
+
+
+                    .out-bg {
+                        height     : 75%;
+                        padding-top: 10%;
+                        align-items: center;
+
+                    }
+
+                    .position {
+                        height: 25%;
+                    }
+                }
+
+
+
+
+
+                .bg-img {
+                    height             : 150px;
+                    width              : 287px;
+                    background-position: center center;
+                    background-repeat  : no-repeat;
+                    background-size    : cover;
+                    background-color   : #eee;
+
+                    &.imgSpecialty {
+                        background-image: url("../../assets/specialty/co-xuong-khop.jpg");
+                    }
+
+                    &.imgFacility {
+                        background-image: url("../../assets/specialty/co-xuong-khop.jpg");
+                    }
+
+                    &.imgDoctor {
+                        // background-image: url("../../assets/doctor/af-ha-noi.png");
+                        height       : 150px;
+                        width        : 150px;
+                        margin       : 0 auto;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .slick-prev {
+                left   : -30px !important;
+                z-index: 1;
+            }
+
+            .slick-next {
+                right: -30px !important;
+            }
+
+            .slick-disabled {
+                display: none !important;
+            }
+        }
+
+    }
+}
+
+.HomeFooter {
+    background-color: rgba(0, 115, 255, 0.879);
+    height          : 40px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+
+    a {
+        text-decoration: unset;
+        color          : black;
+    }
+}

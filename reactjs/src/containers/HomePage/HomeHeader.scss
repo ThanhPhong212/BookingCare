@@ -1,0 +1,231 @@
+.home-header-container {
+    height          : 85px;
+    width           : 100%;
+    padding         : 0 20px;
+    position        : sticky;
+    top             : 0;
+    z-index         : 20;
+    background-color: white;
+    flex-wrap       : wrap;
+
+    .home-header-content {
+        width  : 100%;
+        height : 100%;
+        display: flex;
+
+        .left-content {
+            width          : 25%;
+            align-items    : center;
+            display        : flex;
+            justify-content: right;
+            padding-right  : 90px;
+
+            i {
+                font-size: 25px;
+                color    : gray;
+                cursor   : pointer;
+            }
+
+            .header-logo {
+                background     : url("../../assets/images/LogoBookingCare.svg") center center no-repeat;
+                height         : 60%;
+                width          : 70%;
+                cursor         : pointer;
+                background-size: 80%;
+
+            }
+        }
+
+        .center-content {
+            width          : 50%;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+
+            .child-content {
+                cursor: pointer;
+
+                .subs-title {
+                    font-weight: 40;
+                    font-size  : 14px;
+                    cursor     : pointer;
+                }
+            }
+        }
+
+        .right-content {
+            width          : 25%;
+            display        : flex;
+            justify-content: right;
+            align-items    : center;
+            color          : gray;
+            padding-right  : 60px;
+
+            .support {
+                padding-left   : 50px;
+                display        : flex;
+                justify-content: right;
+                align-items    : center;
+                cursor         : pointer;
+                margin-right   : 20px;
+            }
+
+            i {
+                color       : #49bce2;
+                font-size   : 15px;
+                margin-right: 5px;
+            }
+
+            .language {
+                display         : flex;
+                justify-content : center;
+                align-items     : center;
+                height          : 20px;
+                width           : 70px;
+                text-align      : center;
+                border-radius   : 10px;
+                background-color: gray;
+                color           : white;
+
+
+
+                .language-vi {
+                    cursor: pointer;
+                    color : white;
+                    height: 100%;
+                    width : 50%;
+
+                    &.active {
+                        background-color: #49bce2;
+                        height          : 100%;
+                        width           : 50%;
+                        border-radius   : 10px;
+                    }
+                }
+
+                .language-en {
+                    cursor: pointer;
+                    height: 100%;
+                    width : 50%;
+
+                    &.active {
+                        height          : 100%;
+                        width           : 50%;
+                        background-color: #49bce2;
+                        border-radius   : 10px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.home-header-banner {
+    background         : url(../../assets/images/bookingcare.jpg);
+    height             : 700px;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: center;
+    display            : flex;
+    flex-direction     : column;
+
+    .content-up {
+        height     : 70%;
+        padding-top: 80px;
+        background : rgba(0, 0, 0, 0.1);
+
+        .title1 {
+            text-align   : center;
+            font-size    : 30px;
+            text-shadow  : 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color        : white;
+        }
+
+        .title2 {
+            text-align   : center;
+            font-size    : 38px;
+            text-shadow  : 1px 1px 1px #333;
+            margin-bottom: 15px;
+            color        : white;
+        }
+
+        .search {
+            width          : fit-content;
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+            margin         : 0 auto;
+            padding        : 10px;
+            border-radius  : 30px;
+            background     : #f7d800;
+
+            i {
+                margin      : 0 5 px;
+                padding-left: 20px;
+                font-size   : 18px
+            }
+
+            input {
+                padding-left: 20px;
+                height      : 38px;
+                width       : 430px;
+                background  : transparent;
+                border      : none;
+                outline     : none;
+            }
+        }
+    }
+
+    .content-down {
+
+        height         : 30%;
+        display        : flex;
+        align-items    : flex-end;
+        justify-content: center;
+        background     : linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+        .options {
+            display        : flex;
+            justify-content: center;
+            margin-top     : 65px;
+            gap            : 20px;
+
+            .options-child {
+                width     : 150px;
+                height    : 150px;
+                text-align: center;
+
+                .icon-child {
+                    background   : white;
+                    border       : 1px solid rgba(0, 0, 0, 0.2);
+                    width        : 80px;
+                    height       : 80px;
+                    padding      : 10px;
+                    border-radius: 50%;
+                    text-align   : center;
+                    margin       : auto;
+
+
+                    i {
+                        margin-top: 13px;
+                        font-size : 30px;
+                        color     : #49bce2;
+                    }
+                }
+
+                .text-child {
+                    font-size  : 18px;
+                    font-weight: 600;
+                    cursor     : pointer;
+
+                    &:hover {
+                        color: #49bce2;
+                    }
+                }
+            }
+
+        }
+    }
+}

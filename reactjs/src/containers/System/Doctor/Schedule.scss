@@ -1,0 +1,17 @@
+.schedule_container {
+    padding-top: 40px;
+
+    .schedule_title {
+        font-size     : 20px;
+        text-transform: uppercase;
+        font-weight   : 600;
+    }
+
+    .pick-hour-container {
+        margin-top: 20px;
+
+        .btn {
+            margin-right: 6px;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+  "homeheader": {
+    "speciality": " Medical pecialty",
+    "suggest1": "Find a doctor by specialty",
+    "health facilities": "Health facilities",
+    "facilities": "Choose a clinic",
+    "doctor": "Doctor",
+    "choose": "Choose a doctor",
+    "package": "Examination package",
+    "general": "General examination",
+    "support": "Support",
+    "welcome": "Welcome"
+  },
+  "banner": {
+    "title1": "MEDICAL BACKGROUND",
+    "title2": "COMPREHENSIVE HEALTH CARE",
+    "child1": "Specialized examination",
+    "child2": "Remote examination",
+    "child3": "General examination",
+    "child4": "Medical test",
+    "child5": "Mental health",
+    "child6": "Dental examination",
+    "search": "Find a doctor by specialty"
+  },
+  "menu": {
+    "system": {
+      "header": "System",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "product-manage": "Package manage",
+        "register-package-group-or-account": "Register service package for group/account"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    },
+    "admin": {
+      "user": "User",
+      "manager-doctor": "Manager doctor",
+      "manager-admin": "Manager admin",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD redux",
+
+      "clinic": "Clinic",
+      "manage-clinic": "manage-clinic",
+
+      "specialty": "Specialty",
+      "manage-specialty": "Manage specialty",
+
+      "handbook": "Handbook",
+      "manage-handbook": "Manage handbook"
+    },
+    "doctor": {
+      "schedule": "Manage doctor's schedule"
+    }
+  },
+  "manage-user": {
+    "add": "Add new user",
+    "email": "Email",
+    "password": "Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "address": "Address",
+    "phoneNumber": "Phone Number",
+    "gender": "Gender",
+    "position": "Position",
+    "roleID": "RoleID",
+    "image": "Image",
+    "save": "Save",
+    "loadimage": "Upload"
+  }
+}
