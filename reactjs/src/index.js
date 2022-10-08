@@ -9,18 +9,18 @@ import IntlProviderWrapper from "./hoc/IntlProviderWrapper";
 
 
 import { Provider } from 'react-redux';
-import reduxStore, { persistor } from './redux';
+// import reduxStore, { predictor } from './redux';
 
-const renderApp = () => {
-    ReactDOM.render(
-        <Provider store={reduxStore}>
-            <IntlProviderWrapper>
-                <App persistor={persistor}/>
-            </IntlProviderWrapper>
-        </Provider>,
-        document.getElementById('root')
-    );
-};
+// const renderApp = () => {
+//     ReactDOM.render(
+//         // <Provider store={reduxStore}>
+//             <IntlProviderWrapper>
+//                 <App persistor={persistor}/>
+//             </IntlProviderWrapper>
+//         </Provider>,
+//         // document.getElementById('root')
+//     );
+// };
 
 renderApp();
 // If you want your app to work offline and load faster, you can change
